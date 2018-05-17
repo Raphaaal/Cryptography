@@ -7,10 +7,6 @@ Created on Wed Dec 27 17:30:14 2017
 """
 
 
-
-
-
-
 def hexToBytes(hexa):
     
     b = bytes.fromhex(hexa)
@@ -106,7 +102,6 @@ def scoring(sentence):
     
     return score
             
-       
     
 
 def testKeys(x):
